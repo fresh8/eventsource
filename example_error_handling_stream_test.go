@@ -2,9 +2,10 @@ package eventsource_test
 
 import (
 	"fmt"
-	"github.com/donovanhide/eventsource"
 	"net"
 	"net/http"
+
+	"github.com/pboyd/eventsource"
 )
 
 func ExampleErrorHandlingStream() {
